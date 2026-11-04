@@ -1,0 +1,70 @@
+{
+  "H1": {
+    "global_slope_mean": -1.772315677421106,
+    "local_slope_mean": -0.6504473966789669,
+    "criterion": "global <= -0.7 and local >= -0.5",
+    "supported": false
+  },
+  "H2": {
+    "local_minus_global_mean": 1.1685566382197898,
+    "std": 0.06342615161986874,
+    "criterion": ">= 0.4",
+    "supported": true
+  },
+  "H3": {
+    "delta_global_mean": -0.38535662880091753,
+    "delta_local_mean": -0.17954206277634976,
+    "gap_mean": 0.20581456602456774,
+    "gap_std": 0.013325669932231679,
+    "criterion": "gap >= 0.1",
+    "supported": true
+  },
+  "H4": {
+    "n": 8,
+    "p": 0.01,
+    "median_adam_local": 0.0697297092034159,
+    "median_adam_global": 0.0376397059977889,
+    "supported": false
+  },
+  "H5": {
+    "beats_random_search_by_mean": {
+      "p=0.0,n=4": {
+        "adam-global": true,
+        "adam-local": true,
+        "spsa-global": true,
+        "spsa-local": true
+      },
+      "p=0.0,n=6": {
+        "adam-global": true,
+        "adam-local": true,
+        "spsa-global": true,
+        "spsa-local": true
+      },
+      "p=0.0,n=8": {
+        "adam-global": true,
+        "adam-local": true,
+        "spsa-global": true,
+        "spsa-local": true
+      },
+      "p=0.01,n=4": {
+        "adam-global": true,
+        "adam-local": true,
+        "spsa-global": true,
+        "spsa-local": true
+      },
+      "p=0.01,n=6": {
+        "adam-global": true,
+        "adam-local": true,
+        "spsa-global": true,
+        "spsa-local": true
+      },
+      "p=0.01,n=8": {
+        "adam-global": true,
+        "adam-local": true,
+        "spsa-global": true,
+        "spsa-local": true
+      }
+    },
+    "supported": true
+  }
+}

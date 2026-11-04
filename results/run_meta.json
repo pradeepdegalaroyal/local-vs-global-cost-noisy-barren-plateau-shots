@@ -1,0 +1,65 @@
+{
+  "quick": false,
+  "device": "cuda",
+  "python": "3.11.9",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "scaling_seconds": 53.0,
+  "training_seconds": 340.3,
+  "total_seconds": 403.7,
+  "scaling_config": {
+    "qubits": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "schedules": [
+      "log",
+      "linear"
+    ],
+    "noise": [
+      0.0,
+      0.005,
+      0.01,
+      0.02
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "samples": 256
+  },
+  "training_config": {
+    "qubits": [
+      4,
+      6,
+      8
+    ],
+    "noise": [
+      0.0,
+      0.01
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "shots": 200,
+    "adam_steps": 25,
+    "methods": [
+      "adam-global",
+      "adam-local",
+      "spsa-global",
+      "spsa-local",
+      "random-global"
+    ]
+  }
+}

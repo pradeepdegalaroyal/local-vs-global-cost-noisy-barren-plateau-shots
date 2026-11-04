@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Local versus Global Cost Functions under Hardware Noise: Barren-Plateau Gradient Scaling and Shot Cost in Exact Noisy Simulation"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/local-vs-global-cost-noisy-barren-plateau-shots"
+keywords:
+  - variational quantum algorithms
+  - barren plateaus
+  - noise-induced barren plateaus
+  - shot cost
